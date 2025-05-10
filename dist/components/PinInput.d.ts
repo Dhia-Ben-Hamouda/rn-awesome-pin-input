@@ -12,5 +12,5 @@ interface IPinInput {
     secureTextEntry?: boolean;
     shouldOnlyAcceptNumbers?: boolean;
 }
-export default function PinInput({ pinLength, blinkingSpeed, onChange, value, cursorColor, activePinStyle, pinStyle, containerStyle, secureTextEntry, shouldOnlyAcceptNumbers, }: IPinInput): import("react").JSX.Element;
+export default function PinInput({ pinLength, blinkingSpeed, onChange, value, cursorColor, activePinStyle, pinStyle, containerStyle, secureTextEntry, shouldOnlyAcceptNumbers, }: IPinInput): JSX.Element;
 export {};

@@ -1,6 +1,6 @@
 {
   "name": "rn-awesome-pin-input",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A customizable pin input component for React Native",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -13,19 +13,24 @@
   "author": "Dhia Ben Hamouda",
   "license": "ISC",
   "peerDependencies": {
-    "@types/react": ">=18.3.1",
-    "react": ">=18.3.1",
-    "react-native": ">=0.78.0",
+    "react": ">=18.0.0",
+    "react-native": ">=0.76.0",
     "react-native-reanimated": ">=3.0.0"
   },
   "dependencies": {
     "@types/react": "18.3.1",
     "react": "18.3.1",
     "react-native": "0.78.0",
-    "react-native-reanimated": "3.0.0"
+    "react-native-reanimated": "3.0.0",
+    "typescript": "5.0.0"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/Dhia-Ben-Hamouda/rn-awesome-pin-input.git"
-  }
+  },
+  "files": [
+    "dist",
+    "src",
+    "README.md"
+  ]
 }

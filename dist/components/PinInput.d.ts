@@ -1,3 +1,4 @@
+import React from "react";
 import { StyleProp, ViewStyle } from "react-native";
 interface IPinInput {
     pinLength?: number;
@@ -12,5 +13,9 @@ interface IPinInput {
     secureTextEntry?: boolean;
     shouldOnlyAcceptNumbers?: boolean;
 }
-export default function PinInput({ pinLength, blinkingSpeed, onChange, value, cursorColor, activePinStyle, pinStyle, containerStyle, secureTextEntry, shouldOnlyAcceptNumbers, }: IPinInput): import("react").JSX.Element;
-export {};
+interface IPinInputRef {
+    focus: () => void;
+    blur: () => void;
+}
+declare const _default: React.ForwardRefExoticComponent<IPinInput & React.RefAttributes<IPinInputRef>>;
+export default _default;

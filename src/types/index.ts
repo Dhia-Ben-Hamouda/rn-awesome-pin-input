@@ -13,3 +13,8 @@ export interface PinInputProps {
   secureTextEntry?: boolean;
   shouldOnlyAcceptNumbers?: boolean;
 }
+
+export interface PinInputRef {
+  focus: () => void;
+  blur: () => void;
+}

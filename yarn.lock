@@ -2979,9 +2979,9 @@ type-fest@^0.7.1:
   integrity sha512-Ne2YiiGN8bmrmJJEuTWTLJR32nh/JdL1+PSicowtNb0WFpn59GK8/lfD61bVtzguz7b3PBt74nxpv/Pw5po5Rg==
 
 typescript@5.0.0:
-  version "5.9.0-dev.20250510"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.9.0-dev.20250510.tgz#514b661e2f273e7575d0c1f66ac13d07d6ba0218"
-  integrity sha512-mca3N2tPnqgPuZCNTVNGw2vaQNVLtyKbdwkKoZxmImmJkTKTyvUIxdNcwMUUOmk+SANyEzEWsXOQ21W0szkRng==
+  version "6.0.0-dev.20250905"
+  resolved "https://repos.proxym-group.net/repository/npm-group/typescript/-/typescript-6.0.0-dev.20250905.tgz#71ec3b6261a5ce04ccd7502e002e86759508a4ae"
+  integrity sha512-3DUoON5ibUBadEPyd3Ot2K0S9c3R33DEguXdVKqfL+4tYKwHa5v3OIBdkqP0KQFRS7gqA+hhwPgdBHxFb0LSgQ==
 
 undici-types@~6.21.0:
   version "6.21.0"
